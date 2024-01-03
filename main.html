@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="container">
+        <h1>who am I?</h1>
+        <div class="about-content">
+          <div class="pic">
+            <img src="images/profile.jpg" alt="Profile Picture">
+          </div>
+          <div class="about-text">
+            <p>Hello HI! my name is Hakam and I am going to introduce myself here in this page, hope you find something intersting here ;)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="pic-pro">
+          <img src="images/project.png" alt="Project Picture">
+        </div>
+        <h1>Projects</h1> 
+        <div class="project">
+          <h2>my first project:</h2>
+          <p>I made my first video game demo, it was a first person shooter movement demo.</p>
+        </div>
+        <div class="project">
+          <h2>my second project:</h2>
+          <p>I had done some sound design for my web pages to enhance the experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h1>Skills</h1>
+        <ul>
+          <li>sound engineering</li>
+          <li>programming in C++/C#</li>
+          <li>video games production</li>
+          <li>flexible</li>
+          <li>fast workrate</li>
+          <li>understanding</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p>Do you have any questions or do you want to work together on a project? Drop me a message!</p>
+        <form method="get" action="#send">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+  <footer>
+    <p>2023/2024 [HedgeKnock] &copy;</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
